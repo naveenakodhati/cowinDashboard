@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-color: #161625;
+  color: white;
+  padding: 40px;
+  width: 100%;
+  color: white;
+}
+.nav-container {
+  display: flex;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  margin-right: 10px;
+}
+.logo-title {
+  color: #2cc6c6;
+  font-size: 22px;
+  font-weight: 600;
+}
+.titles {
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.card-titles {
+  align-self: flex-start;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 50%;
+  margin: 30px;
+}
+.failure-title {
+  font-family: 'Bree serif';
+  font-size: 20px;
+  font-weight: 500;
+}
